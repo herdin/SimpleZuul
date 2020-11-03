@@ -1,0 +1,5 @@
+rootProject.name = 'SimpleZuulTest'
+include 'SimpleRestTypeA'
+include 'SimpleZuul'
+include 'SimpleRestTypeB'
+

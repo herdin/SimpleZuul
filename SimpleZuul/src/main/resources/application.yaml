@@ -1,0 +1,11 @@
+server:
+  port: 8080
+zuul:
+  routes:
+    typea:
+      url: http://localhost:8090
+    typeb:
+      url: http://localhost:8091
+ribbon:
+  eureka:
+    enabled: false

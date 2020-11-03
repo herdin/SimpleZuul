@@ -1,0 +1,28 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: 'type-b'
+  datasource:
+    url: your-database-url
+    username: your-username
+    password: your-password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        temp:
+          use_jdbc_metadata_defaults: false
+logging:
+  level:
+    root: info
+    com:
+      harm: debug
+    org:
+      hibernate:
+        type:
+          descriptor:
+            sql: trace
